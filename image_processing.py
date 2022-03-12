@@ -1,4 +1,4 @@
-import PIL
+from PIL import Image
 
 def open_picture(path):
-    return PIL.Image.open(path)
+    return Image.open(path)
